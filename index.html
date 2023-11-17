@@ -12,6 +12,9 @@
         </div>
         <table>
             <tr>
+              <td id="cButton"><button onclick="clearDisplay()">C</button></td>
+            </tr>
+            <tr>
                 <td><button onclick="appendToDisplay('7')">7</button></td>
                 <td><button onclick="appendToDisplay('8')">8</button></td>
                 <td><button onclick="appendToDisplay('9')">9</button></td>
@@ -32,11 +35,8 @@
             <tr>
               <td><button onclick="appendToDisplay('.')">.</button></td>
               <td><button onclick="appendToDisplay('0')">0</button></td>
-              <td rowspan="2"><button onclick="calculateResult()">=</button></td>
-              <td rowspan="2"><button onclick="appendToDisplay('+')">+</button></td>
-            </tr>
-            <tr>
-              <td colspan="2"><button onclick="clearDisplay()">C</button></td>
+              <td><button onclick="calculateResult()">=</button></td>
+              <td><button onclick="appendToDisplay('+')">+</button></td>
             </tr>
         </table>
     </div>
